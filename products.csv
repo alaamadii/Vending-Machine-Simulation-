@@ -1,0 +1,6 @@
+type,name,price,extra
+Drink,Cola,1.5,500ml
+Snack,Chips,2.0,250 kcal
+Candy,Gummy Bears,1.0,Fruity
+Drink,Water,1.0,600ml
+Snack,Cookies,2.5,300 kcal
