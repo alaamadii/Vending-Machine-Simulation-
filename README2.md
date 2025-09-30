@@ -1,20 +1,20 @@
 # Vending Machine Simulation (OOP with Inheritance & Polymorphism)
 
-This project is a simulation of a vending machine implemented in **Python** using **Object-Oriented Programming** concepts such as **inheritance** and **polymorphism**.
+This project is a simulation of a vending machine implemented in Python using Object-Oriented Programming concepts such as inheritance and polymorphism.
 
-## 📌 Features
-- **Base Class:** `Product` (name, price, display_info).
-- **Subclasses:**
+## Features
+- Base Class:`Product` (name, price, display_info).
+- Subclasses:
   - `Drink` → adds `volume` (ml).
   - `Snack` → adds `calories`.
   - `Candy` → adds `flavor`.
-- Each subclass **overrides** the `display_info()` method to show product-specific details.
-- Products are **loaded from a file** (`products.txt`).
-- The program presents a **menu** for users to select products and displays product details.
+- Each subclass overrides the `display_info()` method to show product-specific details.
+- Products are loaded from a file (`products.txt`).
+- The program presents a menu for users to select products and displays product details.
 
 ---
 
-## 📂 Project Structure
+##Project Structure
 ```
 VendingMachine/
 │── product.py      # Base class Product
@@ -28,7 +28,7 @@ VendingMachine/
 
 ---
 
-## 📄 Example products.txt
+## Example products.txt
 ```text
 Drink,Cola,1.50,500
 Snack,Chips,2.00,250
@@ -44,35 +44,16 @@ Snack,Cookies,1.75,300
 
 ---
 
-## ▶️ How to Run
-1. Make sure you have **Python 3** installed.
+## How to Run
+1. Make sure you have Python 3 installed.
 2. Clone or download this repository.
 3. Run the main file:
    ```bash
    python main.py
    ```
 
----
 
-## 🖥️ Example Output
-```
-Welcome to the Python Vending Machine!
-Please select what you want:
-1. Drink - Cola
-2. Snack - Chips
-3. Candy - Gummy Bears
-4. Drink - Water
-5. Snack - Cookies
-> 1
-
-Product Information:
-Product: Cola, Price: $1.50
-Volume: 500ml
-```
-
----
-
-## 🚀 OOP Concepts Used
+##  OOP Concepts Used
 - **Inheritance** → Subclasses (`Drink`, `Snack`, `Candy`) extend the `Product` class.  
 - **Polymorphism** → Each subclass overrides `display_info()`.  
 - **Encapsulation** → Attributes are managed inside their respective classes.  
@@ -80,7 +61,7 @@ Volume: 500ml
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 - Save purchase history.
 - Add balance and payment simulation.
 - Implement a GUI using Tkinter or a web interface with Flask.
